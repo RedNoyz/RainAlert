@@ -10,8 +10,8 @@ from twilio.http.http_client import TwilioHttpClient
 proxy_client = TwilioHttpClient()
 proxy_client.session.proxies = {"https": os.environ["https_proxy"]}
 
-account_sid = "ACaad8e1c2efa15333e862b5ce18a9a076"
-auth_token = "deadb31133fc9825dac5ab444b4844a7"
+account_sid = "FILL THIS WITH SID"
+auth_token = "FILL THIS WITH KEY"
 
 
 rain_codes = [1063, 1072, 1150, 1153, 1168, 1171, 1180, 1183, 1186, 1189, 1192, 1195, 1198, 1201, 1240, 1243, 1246, 1273, 1276]
