@@ -73,5 +73,5 @@ if will_rain is False:
     message = client.messages.create(
         body=f'It will rain in the next 12 hours, starting with {start_rain}, {start_condition} and there will be {start_temp}C',
         from_='+13466372476',
-        to='+40720609861'
+        to='FILL WITH PHONE NUMBER'
     )
